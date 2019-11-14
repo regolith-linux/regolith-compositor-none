@@ -1,0 +1,17 @@
+regolith-compositor-none (1.0.1-1ubuntu1~ppa1) disco; urgency=medium
+
+  * Move to Makefile to preserve file permissions. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 09 Nov 2019 20:10:09 -0800
+
+regolith-compositor-none (1.0-1ubuntu1~ppa2) disco; urgency=medium
+
+  * Fix file install bug. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Fri, 08 Nov 2019 07:17:27 -0800
+
+regolith-compositor-none (1.0-1ubuntu1~ppa1) disco; urgency=medium
+
+  * Initial commit.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Fri, 08 Nov 2019 06:56:50 -0800

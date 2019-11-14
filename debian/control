@@ -1,0 +1,16 @@
+Source: regolith-compositor-none
+Section: x11
+Priority: optional
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Vcs-Git: https://github.com/regolith-linux/regolith-compositor-none.git
+
+Package: regolith-compositor-none
+Architecture: any
+Depends: ${misc:Depends}
+Description: Regolith configuration for no compositor.
+Provides: regolith-compositor
+Conflicts: regolith-compositor
+Replaces: regolith-compositor
