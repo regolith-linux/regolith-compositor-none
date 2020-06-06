@@ -10,7 +10,9 @@ Vcs-Git: https://github.com/regolith-linux/regolith-compositor-none.git
 Package: regolith-compositor-none
 Architecture: any
 Depends: ${misc:Depends}
-Description: Regolith configuration for no compositor.
 Provides: regolith-compositor
 Conflicts: regolith-compositor
 Replaces: regolith-compositor
+Description: Regolith configuration for no compositor
+ This package provides the regolith compositor init
+ script that executes nothing.
